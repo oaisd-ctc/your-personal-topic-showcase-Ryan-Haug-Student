@@ -1,9 +1,10 @@
 body{
-    background-color: grey;
+    background-image: url(../images/terrariaskybox.jpg);
+    background-size: cover;
 }
 
 header{
-    background-color: lightgrey;
+    background-color: green;
     transform: translate(0px, -15px);
     border-radius: 25px;
     outline-style: solid;
@@ -17,8 +18,8 @@ nav{
     transform: translate(10px, 5px)
 }
 
-.section{
-    background-color: lightgrey;
+#about{
+    background-color: #804000;
     width: 60%;
     border-radius: 25px;
     border-style: solid;
@@ -45,17 +46,8 @@ nav{
     transform: translate(-170px, -102px);
 }
 
-@media (max-width: 700px){
-    nav{
-        float: left;
-        transform: translate(-95px, 35px)
-    }
-    header{
-        height: 152px;
-    }
-
-    #headlinktext{
-        float: left;
-        transform: translate(10px, -20px)
-    }
+#tcover{
+    float: right;
+    transform: translate(-140px, -90px);
+    scale: 1.3;
 }
