@@ -1,7 +1,22 @@
 header{
     background-color: lightgrey;
+    transform: translate(0px, -15px);
+    border-radius: 25px;
+    outline-style: outset;
 }
 nav{
     float: right;
-    transform: translate(-10px, -35px);
+    transform: translate(75px, -40px);
+}
+
+.headtext{
+    transform: translate(10px, 5px)
+}
+
+#headsubtext{
+    transform: translate(10px, -10px)
+}
+#headlinktext{
+    float: right;
+    transform: translate(-170px, -102px);
 }
