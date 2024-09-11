@@ -6,7 +6,7 @@ header{
 }
 nav{
     float: right;
-    transform: translate(75px, -40px);
+    transform: translate(75px, -45px);
 }
 
 .headtext{
@@ -16,7 +16,23 @@ nav{
 #headsubtext{
     transform: translate(10px, -10px)
 }
+
 #headlinktext{
     float: right;
     transform: translate(-170px, -102px);
+}
+
+@media (max-width: 700px){
+    nav{
+        float: left;
+        transform: translate(-95px, 35px)
+    }
+    header{
+        height: 152px;
+    }
+
+    #headlinktext{
+        float: left;
+        transform: translate(10px, -20px)
+    }
 }
