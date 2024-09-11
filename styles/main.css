@@ -1,8 +1,12 @@
+body{
+    background-color: grey;
+}
+
 header{
     background-color: lightgrey;
     transform: translate(0px, -15px);
     border-radius: 25px;
-    outline-style: outset;
+    outline-style: solid;
 }
 nav{
     float: right;
@@ -11,6 +15,25 @@ nav{
 
 .headtext{
     transform: translate(10px, 5px)
+}
+
+.abtgame{
+    background-color: lightgrey;
+    width: 60%;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+#abouthead{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#gamedisc{
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 0px
 }
 
 #headsubtext{
