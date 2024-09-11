@@ -1,0 +1,7 @@
+header{
+    background-color: lightgrey;
+}
+nav{
+    float: right;
+    transform: translate(-10px, -35px);
+}
