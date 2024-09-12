@@ -1,67 +1,45 @@
 body{
-    background-image: url(../images/terrariaskybox.jpg);
-    background-size: cover;
+    background-color: grey;
+    overflow: hidden;
 }
 
 header{
-    background-color: green;
-    transform: translate(0px, -15px);
-    border-radius: 25px;
-    outline-style: solid;
+    background-color: darkgrey;
+    border-style: outset;
+    height: 150px;
+    scale: .9;
 }
+
+h1{
+    font-size: 64px;
+    transform: translate(900px, -95px);
+    width: 200px;
+    margin: 0px;
+}
+
+#NavHeading{
+    float: right;
+    font-size: 40px;
+    transform: translate(-135px, -235px)
+}
+
 nav{
-    float: right;
-    transform: translate(75px, -45px);
-}
-
-ul{
-    column-count: 4;
-}
-
-.headtext{
-    transform: translate(10px, 5px)
-}
-
-#about{
-    background-color: #804000;
-    width: 60%;
-    border-radius: 25px;
-    border-style: solid;
-}
-
-#abouthead{
-    margin-left: 10px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-
-#gamedisc{
+    float:right;
     font-size: 20px;
-    margin: 10px;
-    margin-top: 0px
+    transform: translate(0px, -175px)
 }
 
-#headsubtext{
-    transform: translate(10px, -10px)
-}
-
-#headlinktext{
-    float: right;
-    transform: translate(-170px, -102px);
-}
-
-#tcover{
-    float: right;
-    transform: translate(-100px, -170px);
-    border: solid;
-    border-radius: 25px;
-}
-
-#classes{
-    background-color: grey;
-    border-radius: 25px;
-    border-style: solid;
-    margin-top: 50px;
+#Tlogo{
+    padding-top: 15px;
     padding-left: 10px;
-    padding-bottom: 10px;
+}
+
+/*END OF HEADING*/
+
+main{
+    background-color: lightgrey;
+    height: 750px;
+    scale: .9;
+    border-style: outset;
+    border-color: darkgrey;
 }
