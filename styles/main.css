@@ -14,6 +14,10 @@ nav{
     transform: translate(75px, -45px);
 }
 
+ul{
+    column-count: 4;
+}
+
 .headtext{
     transform: translate(10px, 5px)
 }
@@ -48,7 +52,16 @@ nav{
 
 #tcover{
     float: right;
-    transform: translate(-140px, -155px);
+    transform: translate(-100px, -170px);
     border: solid;
     border-radius: 25px;
+}
+
+#classes{
+    background-color: grey;
+    border-radius: 25px;
+    border-style: solid;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
