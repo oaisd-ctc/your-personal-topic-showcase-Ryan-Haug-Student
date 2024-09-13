@@ -52,7 +52,8 @@ main {
 }
 
 footer{
-    background-color: black;
+    background-color: grey;
+    scale: .9;
 }
 
 ol{
