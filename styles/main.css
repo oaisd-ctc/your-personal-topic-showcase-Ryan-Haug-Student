@@ -1,6 +1,7 @@
 body {
     background-color: grey;
     overflow: hidden;
+    background-image: url(../images/sky.png);
 }
 
 header {
