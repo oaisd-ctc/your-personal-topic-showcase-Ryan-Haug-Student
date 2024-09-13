@@ -1,45 +1,60 @@
-body{
+body {
     background-color: grey;
     overflow: hidden;
 }
 
-header{
+header {
     background-color: darkgrey;
     border-style: outset;
     height: 150px;
     scale: .9;
 }
 
-h1{
+h1 {
     font-size: 64px;
     transform: translate(900px, -95px);
     width: 200px;
     margin: 0px;
 }
 
-#NavHeading{
+#NavHeading {
     float: right;
     font-size: 40px;
     transform: translate(-135px, -235px)
 }
 
-nav{
-    float:right;
+nav {
+    float: right;
     font-size: 20px;
     transform: translate(0px, -175px)
 }
 
-#Tlogo{
+#Tlogo {
     padding-top: 15px;
     padding-left: 10px;
 }
 
 /*END OF HEADING*/
 
-main{
+main {
     background-color: lightgrey;
     height: 750px;
     scale: .9;
     border-style: outset;
     border-color: darkgrey;
+}
+
+ol{
+    column-count: 4;
+    font-size: 30px;
+    margin: 20px;
+    width: 100%;
+    transform: translate(0px, -150px)
+}
+
+.listp{
+    width: 275px;
+    height: 700px;
+    font-size: 20px;
+    text-indent: 30px;
 }
