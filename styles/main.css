@@ -44,6 +44,14 @@ main {
     border-color: darkgrey;
 }
 
+#homepagemain{
+    height: 650px;
+}
+
+footer{
+    
+}
+
 ol{
     column-count: 4;
     font-size: 30px;
