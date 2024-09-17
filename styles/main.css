@@ -76,6 +76,17 @@ ol{
     width: 40%;
 }
 
+.bossdesc{
+    font-size: 26px;
+    margin: 10px;
+    line-height: 30px
+}
+
+#bosses{
+    column-count: 2;
+    font-size: 25px;
+}
+
 aside{
     transform: translate(0px, -475px);
     text-indent: 20px;
