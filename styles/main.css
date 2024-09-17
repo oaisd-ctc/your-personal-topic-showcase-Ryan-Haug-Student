@@ -47,13 +47,13 @@ main {
     border-color: darkgrey;
 }
 
-#homepagemain{
+#homepagemain {
     height: 650px;
     font-size: 30px;
-    
+
 }
 
-footer{
+footer {
     background-color: grey;
     scale: .9;
     border-style: outset;
@@ -61,7 +61,7 @@ footer{
     transform: translate(0px, -15px)
 }
 
-ol{
+ol {
     column-count: 4;
     font-size: 30px;
     margin: 20px;
@@ -69,44 +69,61 @@ ol{
     transform: translate(0px, -150px)
 }
 
-.listp{
+.listp {
     width: 275px;
     height: 700px;
     font-size: 20px;
     text-indent: 30px;
 }
 
-#armor{
+#armor {
     transform: translate(0px, -475px);
     width: 40%;
 }
 
-.bossdesc{
+.bossdesc {
     font-size: 26px;
     margin: 10px;
     line-height: 30px
 }
 
-#bosses{
+#bosses {
     column-count: 2;
     font-size: 25px;
 }
 
-aside{
+aside {
     transform: translate(0px, -475px);
     text-indent: 20px;
 }
 
-#bgd{
-    margin: 10px;
-    width: 90%;
+#bgd {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 100%;
 }
 
-#house{
+#house {
     scale: 1.9;
-    transform: translate(100px, 40px);
+    transform: translate(100px, 50px);
 }
-#cover{
+
+#cover {
     scale: 1.9;
-    transform: translate(500px, 40px);
+    transform: translate(550px, 50px);
+}
+
+#bags {
+    scale: .7;
+    transform: translate(1400px, -600px)
+}
+
+#slime {
+    transform: translate(-900px, -132px);
+    width: 200px;
+}
+
+#lord {
+    transform: translate(200px, -132px);
+    width: 300px;
 }
