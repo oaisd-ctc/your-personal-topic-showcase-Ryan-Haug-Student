@@ -49,11 +49,16 @@ main {
 
 #homepagemain{
     height: 650px;
+    font-size: 30px;
+    
 }
 
 footer{
     background-color: grey;
     scale: .9;
+    border-style: outset;
+    text-align: center;
+    transform: translate(0px, -15px)
 }
 
 ol{
@@ -90,4 +95,18 @@ ol{
 aside{
     transform: translate(0px, -475px);
     text-indent: 20px;
+}
+
+#bgd{
+    margin: 10px;
+    width: 90%;
+}
+
+#house{
+    scale: 1.9;
+    transform: translate(100px, 40px);
+}
+#cover{
+    scale: 1.9;
+    transform: translate(500px, 40px);
 }
